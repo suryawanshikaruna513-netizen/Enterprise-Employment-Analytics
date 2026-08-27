@@ -1,43 +1,60 @@
-# Enterprise-Employment-Analytics
-# Enterprise Employee Data Security and Performance Analyzer
+# 📊 Enterprise Employee Analytics
 
-## Project Overview
-This project analyzes employee data, attendance, task performance, and quality scores using MySQL and Python.
+### Python + MySQL Employee Performance & Attendance Analyzer
 
-## Technologies Used
-- MySQL
-- Python
-- MySQL Connector
-- Matplotlib
+A beginner-friendly data analytics project that uses **Python and MySQL** to analyze employee performance, attendance, task completion, and department-wise insights.
 
-## Database
-Database: `employee_analyzer`
+## 🚀 Project Overview
 
-### Tables
-- employees
-- departments
-- attendances
-- performance
+This project helps analyze employee data and understand:
 
-## Features
-- Employee data management
-- Department information
-- Attendance analysis
-- Task completion analysis
-- Quality score analysis
-- Employee performance score
-- Data visualization using charts
+- 👥 Employee information
+- 📅 Attendance percentage
+- 📈 Performance scores
+- ✅ Tasks assigned vs completed
+- 🏢 Department-wise analysis
+- 📊 Data visualization using charts
 
-## Analysis
-The project calculates:
-- Attendance percentage
-- Tasks assigned and completed
-- Task completion percentage
-- Average quality score
-- Overall performance score
+## 🛠️ Technologies Used
 
-## Python Visualization
-Python is connected to MySQL using MySQL Connector and Matplotlib is used to create employee performance charts.
+- 🐍 Python
+- 🗄️ MySQL
+- 🐼 Pandas
+- 📊 Matplotlib
+- 🔗 MySQL Connector
 
-## Conclusion
-The system helps analyze employee performance and provides useful insights from employee, attendance, and performance data.
+## 🗃️ Database
+
+The project uses a MySQL database containing tables such as:
+
+- `employees`
+- `departments`
+- `attendances`
+- `performance`
+
+## 📈 Project Output
+
+### Tasks Assigned vs Completed
+
+![Tasks Assigned vs Completed](Tasks%20Assigned%20vs%20Completed.png)
+
+## 📂 Project Files
+
+| File | Purpose |
+|---|---|
+| `employee_analyzer.py` | Employee analysis |
+| `analysis.py` | Data analysis |
+| `charts.py` | Creates visualizations |
+| `connect_db.py` | MySQL database connection |
+| `enterprise_dashboard.py` | Employee dashboard |
+| `employee_analyzer.sql` | Database and table setup |
+
+## 🎯 Key Learning
+
+Through this project, I practiced:
+
+**Python • SQL • Data Analysis • Data Visualization • Database Connectivity**
+
+## 👩‍💻 Author
+
+**Karuna Suryawanshi**
